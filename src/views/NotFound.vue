@@ -1,5 +1,15 @@
 <template>
-  <div class="NotFount">
-    <h1>This is an NotFount page</h1>
+  <div class="xfn-notfound">
+    <h1>404!  NotFount  !!!</h1>
   </div>
 </template>
+
+
+<style lang="scss">
+ .xfn-notfound{
+   text-align: center;
+   padding-top: 200px;
+ }
+
+  
+</style>
