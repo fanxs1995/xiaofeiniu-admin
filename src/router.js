@@ -7,10 +7,10 @@ import GlobalSettings from './views/GlobalSettings.vue'
 import TableList from './views/TableList.vue'
 import TableAdd from './views/TableAdd.vue'
 import TableDelete from './views/TableDelete.vue'
-import CartgoryList from './views/CartgoryList.vue'
-import CartgoryAdd from './views/CartgoryAdd.vue'
-import CartgoryDelete from './views/CartgoryDelete.vue'
-import CartgoryUpdate from './views/CartgoryUpdate.vue'
+import CategoryList from './views/CategoryList.vue'
+import CategoryAdd from './views/CategoryAdd.vue'
+import CategoryDelete from './views/CategoryDelete.vue'
+import CategoryUpdate from './views/CategoryUpdate.vue'
 import DishList from './views/DishList.vue'
 import DishAdd from './views/DishAdd.vue'
 import DishDelete from './views/DishDelete.vue'
@@ -35,10 +35,10 @@ export default new Router({
         {path:'/table/list',component:TableList},
         {path:'/table/add',component:TableAdd},
         {path:'/table/delete',component:TableDelete},
-        {path:'/category/list',component:CartgoryList},
-        {path:'/category/add',component:CartgoryAdd},
-        {path:'/category/delete',component:CartgoryDelete},
-        {path:'/category/update',component:CartgoryUpdate},
+        {path:'/category/list',component:CategoryList},
+        {path:'/category/add',component:CategoryAdd},
+        {path:'/category/delete',component:CategoryDelete},
+        {path:'/category/update',component:CategoryUpdate},
         {path:'/dish/list',component:DishList},
         {path:'/dish/add',component:DishAdd},
         {path:'/dish/delete',component:DishDelete},
